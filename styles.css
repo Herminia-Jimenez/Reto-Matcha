@@ -106,7 +106,7 @@ a{
         background-color: rgba(255, 0, 0, 0.0);
         color: #025157;
         display: block!important;
-
+        margin-left: 0px;
         }
     .actions > a{
         display: none !important;
@@ -388,12 +388,13 @@ body {
       margin-left: 0px;
     }
   
-    .container{
+    .container2{
       width: 100%;
       padding-right: 0px;
       padding-left: 0px;
       margin-right: auto;
       margin-left: auto;
+      margin-top: 150px;
     }
   
     .headerAlt{
