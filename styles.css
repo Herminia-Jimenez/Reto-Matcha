@@ -431,3 +431,54 @@ body {
       margin-left: auto;
     }
   }
+  .container3{
+
+    display: flex;
+    /*flex-direction: row
+    /*flex-wrap: wrap-reverse;*/
+
+    /*flex-flow:  <flex-direction> <flex-wrap>  ATAJO*/
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    /* flex-flow: row wrap; */
+    width: 100%;
+    height: 600px;
+    background-color:white;
+    text-align: center;
+   
+
+
+}
+
+
+.tools{
+
+    display: block;
+}
+.item{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 350px;
+    margin: 15px;
+    border: 2px;
+    padding: 10px;
+    border-style: solid;
+    
+}
+.apartados{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+
+}
+.readers{
+    margin-top: 50px;
+    text-align: center;
+    font-family: vesterbroextrabold,Arial,sans-serif;
+    font-weight: 400!important;
+    color: #025157;
+    /* letter-spacing: -1px; */
+    /* margin-left: 0; */
+}
